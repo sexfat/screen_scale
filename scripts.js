@@ -6,8 +6,6 @@ var ScreenWidth = window.screen.width;
 var ScreenHeight = window.screen.height;
 
 
-
-
 $("#vals").keydown(function (event) {
     if (event.which == 13) {
         //初始給值
