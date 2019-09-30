@@ -12,19 +12,36 @@
 </head>
 
 <body>
+    <div class="wrapper">
+           
+        <div class="box">
+                <h2>
+                        拿出身分證縮放至實際尺寸，並獲得比例
+                    </h2>
+            <div class="xl inlineblock margintop-20"><input type="number" name="" id="vals" placeholder="請輸入值，並按下enter"
+                    class="form-control">
+            </div>
+            <div class="inner-box inlineblock">
+                <input type="button" value="增加" id="add1" class="btn btn-primary">
+                <input type="button" value="減少" id="reduce1" class="btn btn-primary">
+            </div>
+            <div class="text">此螢幕比例值 : <span id="result_value"></span></div>
+        </div>
 
-    <h2>橫式</h2>
-    <div class="left inlineblock"><img src="front_F.jpg" alt="小圖" class="imgx_before"></div>
-    <div class="right inlineblock"><img src="front_F.jpg" alt="大圖" class="imgx_after">
-        <div class="df">
-                <input type="number" name="" id="vals" placeholder="請輸入值">
-                <input type="button" value="增加" id="add1">
-                <input type="button" value="減少" id ="reduce1">
-                <span>比例值 : <span id="result_value"></span></span>  
-            </div></div>
-    
+        <div class="inlineblock">
+           
+            <h3 class="change">實際身分證尺寸</h3>
+            
+            <img src="front_F.jpg" alt="小圖" class="imgx_change">
+        </div>
+        <div class="inlineblock margintop-20">
+            <h3>原始圖</h3>
+            <img src="front_F.jpg" alt="大圖" class="imgx_origin">
 
-    <div class="box"></div>
+        </div>
+
+
+    </div>
 
 
 
