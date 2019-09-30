@@ -1,17 +1,36 @@
 body {
-padding: 0;
-margin: 0 ;
+    padding: 0;
+    margin: 0;
 
 
 }
+
+
+.inlineblock {
+    display: inline-block;
+}
+
+.df {
+    position: absolute;
+    top: 40px;
+}
+
 .imgx {
     width: 393px;
-    
-}
-.box {
-width: 100px;
-height:100px;
-background-color: rgb(0, 255, 98);
-margin-left:30px;
 
 }
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 98);
+    margin-left: 30px;
+
+}
+
+/* .imgx_before {
+width: 343px;
+
+
+
+} */
