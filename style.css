@@ -88,7 +88,7 @@ html [type=button],
 
 .text {
     color: #1b02fd;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 
@@ -99,5 +99,11 @@ html [type=button],
 
 .change {
     color: #1b02fd;
+
+}
+
+.imgx_origin {
+position: absolute;
+top: -1000000px;
 
 }
